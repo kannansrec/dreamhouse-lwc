@@ -10,7 +10,7 @@ private with sharing class FileUtilitiesTest {
         String fileName = 'file.png';
         String recordId = property.Id;
 
-        // WHEN
+        // WHEN for testing Purpose
         String contentDocumentLinkId = FileUtilities.createFile(
             base64Data,
             fileName,
