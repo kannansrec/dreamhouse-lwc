@@ -16,7 +16,7 @@ public with sharing class FileUtilities {
                 SELECT ContentDocumentId
                 FROM ContentVersion
                 WHERE Id = :contentVersion.Id
-                //WITH USER_MODE
+                WITH USER_MODE
             ];
 
             ContentDocumentLink contentDocumentLink = new ContentDocumentLink();
